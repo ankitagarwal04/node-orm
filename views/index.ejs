@@ -1,0 +1,48 @@
+<h2>Create University</h2>
+<h3>/universities/create (post)</h3>
+
+<form action="universities/create" method="post">
+	name: <input type="text" name="name">
+	type: <input type="text" name="type">
+	rank: <input type="text" name="rank">
+	year_of_establishment: <input type="text" name="year_of_establishment">
+
+	<input type="submit">
+
+</form>
+
+<h2>Search University</h2>
+<h3>universities/search (post)</h3>
+
+<form action="universities/search" method="post">
+	query: <input type="text" name="query">
+	<input type="submit">
+
+</form>
+
+
+<h2>Create Courses</h2>
+<h3>/courses/create (post)</h3>
+
+<form action="courses/create" method="post">
+	name: <input type="text" name="name">
+	fees: <input type="text" name="fees">
+	university_id: <input type="text" name="university_id">
+	course_duration(in months): <input type="text" name="course_duration">
+
+	<input type="submit">
+
+</form>
+
+<h2>Search Course by name</h2>
+<h3>/courses/search (post)</h3>
+
+<form action="courses/search" method="post">
+	query: <input type="text" name="query">
+
+
+	<input type="submit">
+
+</form>
+	
+
