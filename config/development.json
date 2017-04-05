@@ -2,7 +2,7 @@
   "databaseSettings": {
     "host": "localhost",
     "user": "root",
-    "password": "root",
+    "password": "qwerty123",
     "database": "node-orm"
   },
   "PORT": 8888
